@@ -80,18 +80,29 @@ body{
     color: #111;
 }
 
-@media screen and (max-width:574px){
-    .greetings{
-        display: block;
+@media screen and (max-width: 600px) {
+    .greetings {
         font-size: 4rem;
-        font-weight: 800;
         text-align: center;
     }
-    .description{
-        font-size: 2rem;
+
+    .description {
+        font-size: 1.2rem;
+        text-align: center;
     }
-    
-    .button a{
-        font-size: 1rem;
+
+    .button {
+        margin-top: 20px;
+    }
+
+    .botones {
+        width: 100%;
+        font-size: 1.2rem;
+    }
+
+    .botones a {
+        display: block;
+        text-align: center;
+        padding: 15px;
     }
 }
